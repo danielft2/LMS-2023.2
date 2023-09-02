@@ -1,0 +1,623 @@
+.looks {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+div.relative_body {
+  position: relative;
+  width: 260px;
+  height: 180px;
+  left: 160px;
+}
+
+div.absolute_body1 {
+   position: absolute;
+   left: 40px;
+   background-color: red;
+}
+
+div.absolute_body2 {
+   position: absolute;
+   top: 0px;
+   left: 60px;
+   background-color: red;
+}
+
+div.absolute_body3 {
+   position: absolute;
+   top: 0px;
+   left: 80px;
+   background-color: blue;
+}
+
+div.absolute_body4 {
+   position: absolute;
+   left: 100px;
+   background-color: red;
+}
+
+div.absolute_body5 {
+   position: absolute;
+   top: 0px;
+   left: 120px;
+   background-color: red;
+}
+
+div.absolute_body6 {
+   position: absolute;
+   top: 0px;
+   left: 140px;
+   background-color: blue;
+}
+
+div.absolute_body7 {
+   position: absolute;
+   left: 160px;
+   background-color: red;
+}
+
+div.absolute_body8 {
+   position: absolute;
+   top: 0px;
+   left: 180px;
+   background-color: red;
+}
+
+div.absolute_body9 {
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   background-color: red;
+}
+
+div.absolute_body10 {
+   position: absolute;
+   top: 20px;
+   left: 40px;
+   background-color: red;
+}
+
+div.absolute_body11 {
+   position: absolute;
+   top: 20px;
+   left: 60px;
+   background-color: red;
+}
+
+div.absolute_body12 {
+   position: absolute;
+   top: 20px;
+   left: 80px;
+   background-color: blue;
+}
+
+div.absolute_body13 {
+   position: absolute;
+   top: 20px;
+   left: 100px;
+   background-color: red;
+}
+
+div.absolute_body14 {
+   position: absolute;
+   top: 20px;
+   left: 120px;
+   background-color: red;
+}
+
+div.absolute_body15 {
+   position: absolute;
+   top: 20px;
+   left: 140px;
+   background-color: blue;
+}
+
+div.absolute_body16 {
+   position: absolute;
+   top: 20px;
+   left: 160px;
+   background-color: red;
+}
+
+div.absolute_body17 {
+   position: absolute;
+   top: 20px;
+   left: 180px;
+   background-color: red;
+}
+
+div.absolute_body18 {
+   position: absolute;
+   top: 20px;
+   left: 200px;
+   background-color: red;
+}
+
+div.absolute_body19 {
+   position: absolute;
+   top: 40px;
+   left: 0px;
+   background-color: red;
+}
+
+div.absolute_body20 {
+   position: absolute;
+   top: 40px;
+   left: 20px;
+   background-color: red;
+}
+
+div.absolute_body21 {
+   position: absolute;
+   top: 40px;
+   left: 40px;
+   background-color: red;
+}
+
+div.absolute_body22 {
+   position: absolute;
+   top: 40px;
+   left: 60px;
+   background-color: red;
+}
+
+div.absolute_body23 {
+   position: absolute;
+   top: 40px;
+   left: 80px;
+   background-color: blue;
+}
+
+div.absolute_body24 {
+   position: absolute;
+   top: 40px;
+   left: 100px;
+   background-color: blue;
+}
+
+div.absolute_body25 {
+   position: absolute;
+   top: 40px;
+   left: 120px;
+   background-color: blue;
+}
+
+div.absolute_body26 {
+   position: absolute;
+   top: 40px;
+   left: 140px;
+   background-color: blue;
+}
+
+div.absolute_body27 {
+   position: absolute;
+   top: 40px;
+   left: 160px;
+   background-color: red;
+}
+
+div.absolute_body28 {
+   position: absolute;
+   top: 40px;
+   left: 180px;
+   background-color: red;
+}
+
+
+div.absolute_body29 {
+   position: absolute;
+   top: 40px;
+   left: 200px;
+   background-color: red;
+}
+
+div.absolute_body30 {
+   position: absolute;
+   top: 40px;
+   left: 220px;
+   background-color: red;
+}
+
+div.absolute_body31 {
+   position: absolute;
+   top: 40px;
+   left: 0px;
+   background-color: red;
+}
+
+div.absolute_body32 {
+   position: absolute;
+   top: 60px;
+   left: 0px;
+   background-color: yellow;
+}
+
+div.absolute_body33 {
+   position: absolute;
+   top: 60px;
+   left: 20px;
+   background-color: yellow;
+}
+
+div.absolute_body34 {
+   position: absolute;
+   top: 60px;
+   left: 40px;
+   background-color: red;
+}
+
+div.absolute_body35 {
+   position: absolute;
+   top: 60px;
+   left: 60px;
+   background-color: blue;
+}
+
+div.absolute_body36 {
+   position: absolute;
+   top: 60px;
+   left: 80px;
+   background-color: yellow;
+}
+
+div.absolute_body37 {
+   position: absolute;
+   top: 60px;
+   left: 100px;
+   background-color: blue;
+}
+
+div.absolute_body38 {
+   position: absolute;
+   top: 60px;
+   left: 120px;
+   background-color: blue;
+}
+
+div.absolute_body39 {
+   position: absolute;
+   top: 60px;
+   left: 140px;
+   background-color: yellow;
+}
+
+div.absolute_body40 {
+   position: absolute;
+   top: 60px;
+   left: 160px;
+   background-color: blue;
+}
+
+
+div.absolute_body41 {
+   position: absolute;
+   top: 60px;
+   left: 180px;
+   background-color: red;
+}
+
+div.absolute_body42 {
+   position: absolute;
+   top: 60px;
+   left: 200px;
+   background-color: yellow;
+}
+
+
+div.absolute_body43 {
+   position: absolute;
+   top: 60px;
+   left: 220px;
+   background-color: yellow;
+}
+
+div.absolute_body44 {
+   position: absolute;
+   top: 80px;
+   left: 0px;
+   background-color: yellow;
+}
+
+div.absolute_body45 {
+   position: absolute;
+   top: 80px;
+   left: 20px;
+   background-color: yellow;
+}
+
+div.absolute_body46 {
+   position: absolute;
+   top: 80px;
+   left: 40px;
+   background-color: yellow;
+}
+
+div.absolute_body47 {
+   position: absolute;
+   top: 80px;
+   left: 60px;
+   background-color: blue;
+}
+
+div.absolute_body48 {
+   position: absolute;
+   top: 80px;
+   left: 80px;
+   background-color: blue;
+}
+
+div.absolute_body49 {
+   position: absolute;
+   top: 80px;
+   left: 100px;
+   background-color: blue;
+}
+
+div.absolute_body50 {
+   position: absolute;
+   top: 80px;
+   left: 120px;
+   background-color: blue;
+}
+
+div.absolute_body51 {
+   position: absolute;
+   top: 80px;
+   left: 140px;
+   background-color: blue;
+}
+
+div.absolute_body52 {
+   position: absolute;
+   top: 80px;
+   left: 160px;
+   background-color: blue;
+}
+
+div.absolute_body53 {
+   position: absolute;
+   top: 80px;
+   left: 180px;
+   background-color: yellow;
+}
+
+div.absolute_body54 {
+   position: absolute;
+   top: 80px;
+   left: 200px;
+   background-color: yellow;
+}
+
+div.absolute_body55 {
+   position: absolute;
+   top: 80px;
+   left: 220px;
+   background-color: yellow;
+}
+
+
+div.absolute_body56 {
+   position: absolute;
+   top: 100px;
+   left: 0px;
+   background-color: yellow;
+}
+
+div.absolute_body57 {
+   position: absolute;
+   top: 100px;
+   left: 20px;
+   background-color: yellow;
+}
+
+div.absolute_body58 {
+   position: absolute;
+   top: 100px;
+   left: 40px;
+   background-color: blue;
+}
+
+div.absolute_body59 {
+   position: absolute;
+   top: 100px;
+   left: 60px;
+   background-color: blue;
+}
+
+div.absolute_body60 {
+   position: absolute;
+   top: 100px;
+   left: 80px;
+   background-color: blue;
+}
+
+div.absolute_body61 {
+   position: absolute;
+   top: 100px;
+   left: 100px;
+   background-color: blue;
+}
+
+div.absolute_body62 {
+   position: absolute;
+   top: 100px;
+   left: 120px;
+   background-color: blue;
+}
+
+div.absolute_body63 {
+   position: absolute;
+   top: 100px;
+   left: 140px;
+   background-color: blue;
+}
+
+div.absolute_body64 {
+   position: absolute;
+   top: 100px;
+   left: 160px;
+   background-color: blue;
+}
+
+div.absolute_body65 {
+   position: absolute;
+   top: 100px;
+   left: 180px;
+   background-color: blue;
+}
+
+div.absolute_body66 {
+   position: absolute;
+   top: 100px;
+   left: 200px;
+   background-color: yellow;
+}
+
+div.absolute_body67 {
+   position: absolute;
+   top: 100px;
+   left: 220px;
+   background-color: yellow;
+}
+
+div.absolute_body68 {
+   position: absolute;
+   top: 120px;
+   left: 40px;
+   background-color: blue;
+}
+
+div.absolute_body69 {
+   position: absolute;
+   top: 120px;
+   left: 60px;
+   background-color: blue;
+}
+
+div.absolute_body70 {
+   position: absolute;
+   top: 120px;
+   left: 80px;
+   background-color: blue;
+}
+
+div.absolute_body71 {
+   position: absolute;
+   top: 120px;
+   left: 140px;
+   background-color: blue;
+}
+
+div.absolute_body72 {
+   position: absolute;
+   top: 120px;
+   left: 160px;
+   background-color: blue;
+}
+
+div.absolute_body73 {
+   position: absolute;
+   top: 120px;
+   left: 180px;
+   background-color: blue;
+}
+
+div.absolute_body74 {
+   position: absolute;
+   top: 140px;
+   left: 20px;
+   background-color: brown;
+}
+
+div.absolute_body75 {
+   position: absolute;
+   top: 140px;
+   left: 40px;
+   background-color: brown;
+}
+
+div.absolute_body76 {
+   position: absolute;
+   top: 140px;
+   left: 60px;
+   background-color: brown;
+}
+
+div.absolute_body77 {
+   position: absolute;
+   top: 140px;
+   left: 160px;
+   background-color: brown;
+}
+
+div.absolute_body78 {
+   position: absolute;
+   top: 140px;
+   left: 180px;
+   background-color: brown;
+}
+
+div.absolute_body79 {
+   position: absolute;
+   top: 140px;
+   left: 200px;
+   background-color: brown;
+}
+
+div.absolute_body80 {
+   position: absolute;
+   top: 160px;
+   left: 0px;
+   background-color: brown;
+}
+
+div.absolute_body81 {
+   position: absolute;
+   top: 160px;
+   left: 20px;
+   background-color: brown;
+}
+
+div.absolute_body82 {
+   position: absolute;
+   top: 160px;
+   left: 40px;
+   background-color: brown;
+}
+
+div.absolute_body83 {
+   position: absolute;
+   top: 160px;
+   left: 60px;
+   background-color: brown;
+}
+
+div.absolute_body84 {
+   position: absolute;
+   top: 160px;
+   left: 160px;
+   background-color: brown;
+}
+
+div.absolute_body85 {
+   position: absolute;
+   top: 160px;
+   left: 180px;
+   background-color: brown;
+}
+
+div.absolute_body86 {
+   position: absolute;
+   top: 160px;
+   left: 200px;
+   background-color: brown;
+}
+
+div.absolute_body87 {
+   position: absolute;
+   top: 160px;
+   left: 220px;
+   background-color: brown;
+}
