@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/bigbang.css">
+
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+   <title>Atividade III - LMS</title>
+</head>
+<body>
+   <header id="header">
+      <div class="container" id="header_content">
+         <span>🌌 UniversoToday</span>
+         <nav>
+            <ul>
+               <li>
+                  <button class="nav_button">Big Bang</button>
+               </li>
+               <li>
+                  <button class="nav_button">Planeta Terra</button>
+               </li>
+               <li>
+                  <button class="nav_button">Buracos Negros</button>
+               </li>
+               <li>
+                  <div class="dropdown">
+                     <button id="button_dropdown" class="dropbtn nav_button">Conteúdos Premium</button>
+                     <div class="dropdown-content">
+                        <a href="#">Teoria das Cordas</a>
+                        <a href="./sunDie.html">A Morte do sol</a>
+                        <a href="#">Salto Quantico</a>
+                     </div>
+                  </div>
+                  <!-- <button " class="header_button">Formas de Contatos</button> -->
+               </li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   
+   <div class="container_main">
+      <article id="sidebar_left">
+         <ul>
+            <li>
+               <a href="">Alpha Centauri</a>
+            </li>
+            <li>
+               <a href="">Sagittarius A*</a>
+            </li>
+            <li>
+               <a href="">Nebulosa Pilares de Criação</a>
+            </li>
+            <li>
+               <a href="">Sonda Voyager</a>
+            </li>
+         </ul>
+      </article>
+      <main class="galery">
+         <div class="galery_container">
+            <div class="galery_image">
+               <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQoICA0ICAcICA0HBwcHDQ8ICQcNFREWFhUREx8YHSggGBoxJxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OFxAQFSsZFRkrKysrKysrLSstKy0tLTctKy0rKys3KysrKy03LSstLS0rNy0rNzcrLSsrKysrKysrLf/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQIDBAUGB//EACMQAAICAgICAwEBAQAAAAAAAAABAgMEEQUhMWESQVETFRT/xAAaAQACAwEBAAAAAAAAAAAAAAACAwABBAUG/8QAIREAAgMBAQEBAAMBAQAAAAAAAAECAxEEEiExIkFRBRT/2gAMAwEAAhEDEQA/APEBAAoMBAFRCgSHJAkSRRTYyEdCMSRRFih6iLbNkKyP4iNE3xGuJWhushaGtEriNaCTESgR6DQ5oQIU0IABshAATYbITRQDYbITQ0NaHAyFPCNoQexrCFNDQFELAAAAhAAAIQfoQk0I0Do5xGCpC6FSJpSiLFEsUMiiWKAbNNcR8USJDYokQts3QiJoRxJEg0Do3yQuJHKJYaGSiEmJnWVmhrRNKIxxGJmSUCIRkjQ1oLRLiME2PaGNFi2mGw2I0IWBo/YbGCkwv0KIAEK0QBQIUIIKBZWCAKBCiYQbsNgYaPQ4ckNRIimHFCxRLFDYoligGzXXEWKHpBFD0hbZsjEQBdC6BGeRuhrRJoPiTSOGkDiMcCz8BP5hKQqVOlVwGuBc/mJ/IL2KfMyk4DHAvuojlUWpipczKLiNaLcqyKUBikZJ0tEGgJHEY0FpnccEABCwRQEAhBRAAhAAAIUAqYgqIWh8WSRIok0ECzRUSxRNBDIRLEIiJM6lMNFjEeokldWy3XjCJTSOhGvCl8BVUzUhieieGF6FO9IZ4Rjqh/g+OKzerwPRar470Jl1JBKBzaw2PWAzqYcZ6LFfF+hMu1L+y/ByUeOf4x64z0dnXxPonXEehT7y/JwkuM9FW7Aa+j0KziPRnZXF630HDv1lOCZwNtGvKKllZ1efx+t9GDkUtNpnTpuUjHfzpr4Zc4kbRbsgQSia4yOPbVhA0NaJWhjQxMySiMAVoQsW0AABCgAAIQdoVIckOSK0coCRiT1xGwiWa4ipSNtNWsfVAu49OxmPVtpG1h43gx3W4dqmvyiPHxfRfqxfRcx8X0X6sX0cuzoNCRnV4pbqxPRfrxvRZrxzJO8LCpTiei/Th+ixTUXqYIzuTZG8K1OCvwv0cevwnpSNHGSLjHTJbfJL4VqeNX4Wo8avw08eCL9VKZvq5VI5VvZNP9Ocs4tfhkZ/E+ejvpYq0UMzDWn0XdwuK1F0/wDQkn9PJeU47W+jkOUwtb6PX+Y4/p9HC8vg+ehXPc65YztwmrI6jzq6vWyrOBvcji6baMiyB36rNRh6Kf7KcokbiWZRIpI0pnLsrIGhjJpIikhiZjnHBogogQoAACFEyJIkSZJEWzXBk8EWqkVay3SImdTmX01cCrwdDhUeDF41eDqOPh4OP1Tw68UXcbHNCrF9D8KnejYoxzkNuTJOaiZscQeqNGwschtq0TyKV+mdrQn9tC5L0ZOTka2V+/EOS1Gss5L7LWPyaX2cZdn6+yKPJtfY5Uz/AFAyhF/qPU8LkovXaN3Ey09do8exOZa12dHxvP8AjbH13zqf1HO6P+cp/YHqFdiaIchJo53B5lSS7ND/AL015Op/7oWQxnHny2Qf1FLk6U0ziOaxfPR22Zemmcxyuns417XrUdrgcksZ53yuJ56OXy6fi2d9yVW9nLcjj+To8d3zDfOOnOWRIJIvXQ0VZxOvGRyr6sZXkiKSLEkRyQ5M51kCu0NJpIiaGJmOUcEAUCwB6JIkaHxAZogWKy3SylBlqpiJo6vNL6bvGT8HWcbLwcTgWaaOr4y3wcbsgdiDOz47XRvY8fBzXG2+DosWzpHJj+iOlMufAqZMSz/Top5VnTGTawyVJ+jE5B62c1n2eTf5Cfk5rkH5JStkdVfhj5V/kz55XsmzfsyrH2duqtNC2zSqztfZp4nJNa7OXUiam5ouznjJFKR6Fx/MNa7OhxeYbS2zzHDyX0b2HlPo5V3N5eoNpS/Ud1LkdryZ+Vf8jKqyWSO3Zjaf9lxrjH8K2Yt7MHOq3s3rnszMqPk10SwtnJZtOm2ZtkTf5CvyYlqO5TLUZL46ipJEbRNMjZrRyrEQyRFJE8iKSGJmKyJHoB+gC0T5GodFjNipkJGRYgyxXIpxZPXIXJG6izDSx56aZ0nGXeDlKZGzxt+tI5/TXqO5RPUd9x13g6PFv6RxPHZHg6LEyPB56yPmRolH0jfd3RSybfJGruivfYLbFQqxlDMn5MLM72a+TLyZOT9migezDy697Mu6lm/dXsrSx9nVrtwW0Yf8mSV0M2I4W/otU4HoOXSkUomdi0Po18WDWi1Rx/ov1YPowXdCYaRDSmWIk8MX0P8A4aMUpphFOaKOSvJqWwM3KXkZU/pGc/yP2c/f9m/yT6Zz1zO7zfhlvf8AErTZG2PmyJs3o41kvojGMc2NCRmk9EEFAsDCEVBoVIMQkOiyWDIkiSKAZor0tVSL2NbppmbBliuYicdOtz24dbx2X47Ojw8rx2ef4eT8Wvw6HBzfHZx+rmOpGWnY15AWWbMfHyt/ZbV2zlSraYwL2ULol2T2QTgNg8IzPlWEaS5/IkrpGuzEVhFRjGnjYe9dD8XH8G5hYnjozTscmVKSitZVx+P9F6vjvRr42J46L0cX0FGls59nbj+HNywdfRUvx9HUX0aMbNjrYE4eRlHQ5s57JhrZjZv2bObPWznuQu8jKE2zczB5SXk5+5mtyN220Y9rPQ88cRi6X/ErzZEx8yNs2o4lj+ibEBsTYYhsUBNgQrQSHKIRJEimw4w0aoj0hyQaA0eoYCHxY3QqKY2PwsVzL+LkuOvwy4slhMTOCZupuz9Orw8veuzWov2cZi5Pxa/Dcw8rx2cy+jDfGWnRwnskUdmfj37L1diObOLQZJGssU0kcJIt0tCJNll3Dp8G9hVLox8Wa6NjFuXRcM0x9O4bWNWi38Foz6MlE0sta8nTrnBROHOEmyLNaSZyvK3pbNjks1JPs4rmM7e+zDbL3LEdbhpaWszuSy9b7OW5HN89k/KZvns5zIu222dTk5sWs2WTSWiX2722U7JBZMhlI60I4ci+/RJMjbFbGNjkjnTloNibEYgQlsdsBoFlaTRJYkCZJGQto1QkTIUjUhfkDhoUkOAbsXZRfodscpEexPkTC1PCzCwuY+U4/ZlfIfGwCVemivq8nUYvIrrbNWjkF12cPC4s15bXhsxWciZuh0xZ3tecv0s156/TgocjJfZPHlJGSXAOVq/09Bq5JL7LtPL6+zzaHLP2Tw5f2IfBJfgXpM9Or5v2OnzfXk83hy/sl/1vYt8c0D4h/h12dyu99nMclm732UreS39mZl5e96Zoo5MesJv4V86/5N/hmWzJ7pFOxnarhiOZ1Wkc5ETkE2RtmlI4tlg5sTYmwCFehRAEIUwAAIUOTHKRGGyYEpkykL8iHYuysDVpN8h3yIFIemC0MjYSbDY1MUrBnoNhsQRkBbHqQ9TINi7JhasaLKsHK0qfIVSB8Dl0MuK0erSkpDlIFwGx6WXVcPV7/SipD1MFwNEellz+z/RkrCv8w+RXgJ9DY6civYSNkchkVhktlpBNEbJpETHI5tiGgAFihQ0CHEDSG6AdoUrSeSIAAIWAogEIOQ6LGDolMOLJUKhIjgGaogIxRGUWxrGisawhLF2GxALB0emOTGIcgWNiyRMXYxDgRyY7YbGhsmBehzYxsGxjZaQEpCSYxitjWw0ZpMRiABYoVD0RjkyBRY8BuxSg9IgFECEAAAQgDkNAhaZLFj0yFMcmC0OjMl2I2N2GwcD9AxorEYSAYgogqIChyHIahyKY2I5DhiY4EamAgNiEKbBsY2K2MbCQqUhGxorECENgIKIWCAogpCC7AQCF6AMAIQQAAhQAAEIKhUAFMJDkKhQKGoQQAIUxBUAEKQ5CgBQ1DkAACGgYjACymNYxgASEyGgAFigAALIAABCAAAUQ/9k=" alt="">
+            </div>
+           <div class="galery_image">
+               <img src="https://jornaldaparaiba.com.br/wp-content/uploads/2022/07/Nebulosa-Carina-scaled.jpg" alt="">
+            </div>
+            <div class="galery_image">
+               <img src="https://w.forfun.com/fetch/a8/a843d244cd688705eb71f318592e97bd.jpeg" alt="">
+            </div>
+            <div class="galery_image">
+               <img src="https://www.mapadomeuceu.com.br/wp-content/uploads/2021/02/Imagens-do-universo-Nasa-Pilares-da-Criacao-Nebulosa-Carina.jpg.webp" alt="">
+            </div>
+            <div class="galery_image">
+               <img src="https://www.elsoldemexico.com.mx/doble-via/ciencia/l0jx4z-lado-terrorifico-del-universo-7.png/ALTERNATES/LANDSCAPE_768/Lado%20terror%C3%ADfico%20del%20Universo%207.png" alt="">
+            </div>
+            <div class="galery_image">
+               <img src="https://img.freepik.com/fotos-premium/fundo-do-espaco-abstrato-da-galaxia-e-da-nebulosa-universo-infinito-com-estrelas-no-espaco-sideral-generative-ai_47243-2024.jpg" alt="">
+            </div>
+            <div class="galery_image">
+               <img src="https://imagens.brasil.elpais.com/resizer/hPoZBNO25YfRDs2UnE36LrCJdNk=/414x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/RQSVSI2XLMKCB25XMT3EQC7WHE.jpg" alt="">
+            </div>
+            <div class="galery_image">
+               <img src="https://www.mundoconectado.com.br/wp-content/plugins/seox-image-magick/imagick_convert.php?width=910&height=568&format=webp&quality=91&imagick=uploads.mundoconectado.com.br/2022/03/27175019/simetrias-universo-espelhado-mundo-conectado.jpg" alt="">
+            </div>
+            <div class="galery_image">
+               <img src="https://img.freepik.com/fotos-premium/o-universo-e-um-planeta-o-sol-e-as-estrelas_916189-60.jpg" alt="">
+            </div>
+         </div>
+      </main>
+      <article id="sidebar_rigth">
+         <h1>Sobre a galeria</h1>
+         <p>
+            A galeria ao lado mostra algumas fotos do nosso belissimo universo, mas a final o que é o universo?
+         </p>
+         <p>
+            O Universo corresponde ao conjunto de toda a matéria, energia, 
+            espaço e tempo existente. Ele reúne os astros: planetas, cometas, 
+            estrelas, galáxias, nebulosas, satélites, dentre outros. O universo é, 
+            portanto, mais que um local imenso, ele é tudo, e engloba tudo o que existe.</p>
+         </p>
+      </article>
+   </div>
+   
+   <footer id="footer">
+      <div class="container">
+         <span>
+            ©Daniel Almeida. Todos os direitos reservados. 2023
+         </span>
+      </div>
+   </footer>
+</body>
+</html>
