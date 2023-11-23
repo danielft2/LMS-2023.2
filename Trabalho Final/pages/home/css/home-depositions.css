@@ -1,0 +1,139 @@
+.depositions {
+   padding-bottom: 100px;
+}
+
+.depositions-intro {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 2rem;
+
+   margin-bottom: 100px;
+}
+
+.depositions-intro-side-left {
+   width: 340px;
+   height: 150px;
+
+   background-image: url("/assets/wave.svg");
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+.depositions-cards {
+   display: flex;
+   align-items: center;
+
+   border: solid 1px var(--blue200);
+   border-radius: 0.6rem 0.6rem 0rem 0rem;
+}
+
+.deposition-card {
+   padding: 2rem;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 8rem;
+}
+
+.deposition-card:nth-child(2) {
+   border-left: solid 1px var(--blue200);
+   border-right: solid 1px var(--blue200);
+}
+
+.deposition-card-top p {
+   font-size: 0.95rem;
+   line-height: 160%;
+   font-style: italic;
+
+   margin-bottom: 1rem;
+}
+
+.deposition-card-top img {
+   width: 20px;
+}
+
+.deposition-card-bottom {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+
+.deposition-user-avatar {
+   width: 48px;
+   height: 48px;
+   border-radius: 100%;
+
+   background-color: var(--blue100);
+}
+
+.deposition-user-infor {
+   display: flex;
+   flex-direction: column;
+
+   font-family: var(--title);
+}
+
+.deposition-user-infor span:first-child {
+   font-family: inherit;
+   font-weight: 700;
+   color: var(--blue800);
+}
+
+.deposition-user-infor span:last-child {
+   font-family: inherit;
+   font-weight: 600;
+   font-size: 0.95rem;
+   color: var(--blue300);
+}
+
+.depositions-more {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 0.25rem;
+
+   padding: 1.25rem;
+   border: solid 1px var(--blue200);
+   border-radius: 0rem 0rem 0.6rem 0.6rem;
+}
+
+.depositions-more a {
+   font-family: var(--title);
+   font-size: 0.95rem;
+   font-weight: bold;
+   color: var(--blue300);
+}
+
+.depositions-more svg {
+   width: 20px;
+   color: var(--blue300);
+}
+
+.depositions-more:hover a, 
+.depositions-more:hover svg {
+   filter: brightness(0.5);
+}
+
+.depositions-more:hover a {
+   text-decoration: underline;
+}
+
+@media screen and (max-width: 876px) {
+   .depositions-cards  {
+      flex-direction: column;
+   }
+
+   .deposition-card {
+      gap: 4rem;
+   }
+
+   .deposition-card:nth-child(2) {
+      border-left: none;
+      border-right: none;
+      border-top: solid 1px var(--blue200);
+      border-bottom: solid 1px var(--blue200);
+   }
+}

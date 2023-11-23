@@ -1,0 +1,26 @@
+.our-partners {
+  background-color: var(--blue50);
+  padding: 4.5rem 0rem;
+
+  margin-bottom: 100px;
+}
+
+.our-partners-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.our-partners-side-left .text {
+  max-width: 40ch;
+  margin-bottom: 1.8rem;
+}
+
+.our-partners-side-right {
+  width: 55%;
+}
+
+.our-partners-side-right .partenrs-slide img {
+  width: 100%;
+}

@@ -1,0 +1,170 @@
+.our-products {
+  margin-bottom: 100px;
+}
+
+.our-products-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+
+  margin-bottom: 68px;
+}
+
+.products-intro-side-left p {
+  max-width: 50ch;
+}
+
+.products-intro-side-left p strong {
+  color: var(--blue300);
+  font-weight: bold;
+}
+
+.products-intro-side-rigth {
+  width: 340px;
+  height: 150px;
+
+  background-image: url("/assets/wave.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.our-products-carousel {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  position: relative;
+}
+
+.our-products-carousel.content {
+  max-width: 1390px;
+}
+
+.swiper {
+  width: 100%;
+  flex-grow: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-wrapper {
+  height: auto;
+}
+
+.control-carousel {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--blue300);
+  color: white;
+
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+
+  flex: none;
+}
+
+.control-carousel.swiper-button-disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.control-carousel:not(.swiper-button-disabled):hover {
+  filter: brightness(1.2);
+}
+
+.products-pagination {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -32px !important;
+}
+
+.product-carousel-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-width: 360px;
+  height: 400px;
+  background-color: var(--blue50);
+  border-radius: 0.6rem;
+  padding: 2rem;
+
+  transition: all 0.2s ease-in;
+
+  flex-shrink: 1;
+}
+
+.product-carousel-item .carousel-item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-color: var(--yellow400);
+  color: white;
+
+  margin-bottom: 2rem;
+}
+
+.product-carousel-item h1 {
+  font-family: var(--title);
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: var(--blue800);
+
+  margin-bottom: 0.75rem;
+}
+
+.product-carousel-item p {
+  font-size: 0.95rem;
+  line-height: 160%;
+  color: var(--blue800);
+}
+
+.product-carousel-item .button-outlined {
+  width: 100%;
+}
+
+.product-carousel-item:hover {
+  transform: scale(0.98);
+  background-color: var(--blue300);
+}
+
+.product-carousel-item:hover .carousel-item-icon {
+  background-color: white;
+  color: var(--yellow400);
+}
+
+.product-carousel-item:hover h1 {
+  color: white;
+}
+
+.product-carousel-item:hover p {
+  color: var(--gray100);
+}
+
+.product-carousel-item:hover .button-outlined {
+  border-color: white;
+  background-color: white;
+}
+
+.product-carousel-item:hover .button-outlined span {
+  color: var(--blue600);
+}
+
+.product-carousel-item:hover .button-outlined:hover {
+  opacity: 0.9;
+}

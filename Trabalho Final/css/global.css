@@ -1,0 +1,155 @@
+:root {
+  --blue50: #ebf2f5;
+  --blue100: #d9e6eb;
+  --blue200: #B0CBD6;
+  --blue300: #01587c;
+  --blue600: #01425d;
+  --blue800: #001f2b;
+
+  --gray100: #dae0e3;
+
+  --yellow400: #e9a011;
+
+  --shadow: #b0cbd666;
+
+  --title: "Nunito", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: 1rem;
+}
+
+.container {
+  padding: 1rem 2rem;
+}
+
+.content {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 1rem 2.5rem;
+}
+
+.subtitle {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: var(--title);
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: var(--blue300);
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-family: var(--title);
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--blue800);
+  margin-bottom: 0.25rem;
+}
+
+.text {
+  color: var(--blue800);
+  line-height: 160%;
+}
+
+.text strong {
+  color: var(--blue300);
+}
+
+.shadow-sm {
+  box-shadow: 0px 1px 40px 0px var(--shadow);
+}
+
+.button-outlined,
+.button-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  height: 2.75rem;
+  padding: 0.5rem 2rem;
+  border-radius: 0.25rem;
+
+  font-family: var(--title);
+
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}
+
+.button-outlined span,
+.button-primary span {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+.button-outlined {
+  border: solid 2px var(--blue600);
+  background-color: transparent;
+}
+
+.button-outlined span {
+  color: var(--blue600);
+}
+
+.button-outlined svg {
+  width: 20px;
+  color: var(--blue600);
+}
+
+.button-outlined:hover {
+  background-color: var(--blue300);
+  border: solid 2px var(--blue300);
+}
+
+.button-outlined:hover span,
+.button-outlined:hover svg {
+  color: white;
+}
+
+.button-primary {
+  background-color: var(--blue300);
+  border: none;
+  color: white;
+}
+
+.button-primary:hover {
+  opacity: 0.9;
+}
+
+.carousel-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.carousel-pagination span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+
+.carousel-pagination span.swiper-pagination-bullet-active {
+  background-color: var(--blue300);
+}
