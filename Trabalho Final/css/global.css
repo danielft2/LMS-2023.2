@@ -122,7 +122,8 @@ h4 {
 }
 
 .button-outlined:hover span,
-.button-outlined:hover svg {
+.button-outlined:hover svg,
+.button-outlined:hover {
   color: white;
 }
 

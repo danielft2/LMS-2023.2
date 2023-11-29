@@ -1,0 +1,94 @@
+.beneficios {
+    padding: 100px 140px;
+    padding-bottom: 240px;
+    padding-right: 80px;
+    display: flex;
+    position: relative;
+}
+
+.beneficios-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.wave {
+    height: 85px;
+    width: 190px;
+}
+
+.wave-bottom {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+
+.wave-top {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+.imagem-maior {
+    width: 478px;
+    height: 558px;
+}
+
+.imagem-menor {
+    position: absolute;
+    top: 240px;
+    left: -50px; 
+    z-index: 1; 
+}
+
+
+.beneficios h2 {
+    font-family: "Nunito", sans-serif;
+    color: var(--blue800);
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.beneficios-descricao {
+    font-family: "Inter", sans-serif;
+    color: var(--blue800);
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-bottom: 32px;
+}
+
+.beneficios button {
+    background-color: var(--blue300);
+    padding: 12px 28px;
+    border-radius: 6px;
+    border: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 76px;
+}
+.beneficios button:hover {
+    cursor: pointer;
+}
+
+.beneficios-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 5px;
+}
+
+.beneficios-lista li {
+    display: flex;
+    align-items: start;
+    gap: 8px;
+}
+
+.beneficios-lista li span {
+    font-family: "Nunito", sans-serif;
+    color: var(--blue800);
+    font-weight: 500;
+    font-size: 1.125rem;
+}

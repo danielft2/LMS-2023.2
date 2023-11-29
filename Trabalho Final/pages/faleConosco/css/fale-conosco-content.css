@@ -1,0 +1,133 @@
+.fale-conosco {
+    padding: 100px 140px;
+    padding-bottom: 240px;
+    padding-right: 80px;
+    display: flex;
+    position: relative;
+    gap: 40px;
+}
+
+.wave {
+    height: 85px;
+    width: 190px;
+}
+
+.wave-bottom {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+
+.wave-top {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+.formas-contato h2 {
+    font-family: "Nunito", sans-serif;
+    color: var(--blue800);
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.fale-conosco-descricao {
+    font-family: "Inter", sans-serif;
+    color: var(--blue800);
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-bottom: 32px;
+}
+
+.form-email {
+    border: 1px solid var(--blue200);
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.formas-lista {
+    margin-top: 84px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.formas-item {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    border: 1px solid var(--blue200);
+    border-radius: 8px;
+    padding: 20px 32px;
+}
+
+.formas-item div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.formas-titulo {
+    font-family: "Nunito", sans-serif;
+    color: var(--blue800);
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.formas-descricao {
+    font-family: "Inter", sans-serif;
+    color: var(--blue800);
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.form button {
+    display: block;
+    background-color: var(--blue300);
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 16px 0px;
+}
+
+.form-mensagem {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.form-mensagem img {
+    height: 48px;
+    width: 48px;
+}
+
+.contato-description {
+    font-family: "Nunito", sans-serif;
+    color: var(--blue800);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.form-label {
+    font-family: "Inter", sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.125rem;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.form-input {
+    background-color: var(--blue100);
+    border: none;
+    border-radius: 4px;
+    padding: 12px 6px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form textarea {
+    height: 159px;
+}
