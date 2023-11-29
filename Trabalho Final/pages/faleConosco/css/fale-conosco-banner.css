@@ -1,0 +1,39 @@
+.banner {
+    margin-top: 93px;
+
+    background-image: url("/assets/banner-home.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 450px;
+
+    position: relative;
+}
+
+.text-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; 
+}
+
+.title {
+    color: #ffffff;
+    font-size: 2.75rem;
+    max-width: 580px;
+}
+
+.description {
+    font-family: "Inter";
+    color: #ffffff;
+    font-size: 1.25rem;
+    max-width: 510px;
+}
+
+.banner-img {
+    height: 411px;
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+}

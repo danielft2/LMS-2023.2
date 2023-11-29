@@ -1,0 +1,118 @@
+.parceiro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--blue50);
+    padding: 123px 0px;
+}
+
+.parceiro-tabela {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.parceiro-banner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.parceiro-banner h2 {
+    font-family: "Nunito", sans-serif;
+    color: var(--blue800);
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 8px;
+    
+}
+
+.parceiro-descricao {
+    font-family: "Inter", sans-serif;
+    color: var(--blue800);
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-bottom: 32px;
+    max-width: 502px;
+}
+
+.blank {
+    display: block;
+    width: 344px;
+    height: 84px;
+}
+
+.categoria {
+    background-color: var(--blue300);
+    color: #ffffff;
+    width: 344px;
+    display: block;
+    padding: 24px 27px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.categoria:nth-child(n+1):nth-child(-n+7) {
+    border-bottom: 1px solid #B2C0C6;
+}
+
+.categoria:nth-of-type(2){
+    border-radius: 6px 0px 0px 0px; 
+}
+
+.categoria:last-child {
+    border-radius: 0px 0px 0px 6px;
+}
+
+.tabela-pessoa-fisica, .tabela-pessoa-juridica {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 426px;
+    border-radius: 6px;
+}
+
+.tabela-pessoa-fisica {
+    margin-right: 8px;
+}
+
+.categoria-item:nth-child(n+1):nth-child(-n+8) {
+    border-top: 1px solid #DAE0E3
+}
+
+.categoria-item:nth-child(n+1):nth-child(-n+8) {
+    border-top: 1px solid #DAE0E3
+}
+
+.categoria-classe {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    background-color: #ffffff;
+    justify-content: center;
+    padding: 28px 0px;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.categoria-classe p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #031720;
+}
+
+.categoria-item {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 14px 0px;
+}
+
+.categoria-item:last-child {
+    border-radius: 0px 0px 6px 6px;
+}
+
+.categoria-item-imagem {
+    width: 42px;
+    height: 42px;
+}
