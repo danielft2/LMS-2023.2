@@ -1,7 +1,7 @@
 .banner {
     margin-top: 93px;
 
-    background-image: url("/assets/banner-home.png");
+    background-image: url("./assets/banner-home.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
