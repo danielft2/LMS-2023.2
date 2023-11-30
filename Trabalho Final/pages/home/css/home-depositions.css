@@ -15,7 +15,7 @@
    width: 340px;
    height: 150px;
 
-   background-image: url("/assets/wave.svg");
+   background-image: url("../../../assets/wave.svg");
    background-position: center;
    background-size: contain;
    background-repeat: no-repeat;
