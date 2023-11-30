@@ -49,6 +49,42 @@
   display: none;
 }
 
+.our-services {
+  position: relative;
+  cursor: pointer;
+}
+
+.our-services-dropdown {
+  background-color: white;
+  border-radius: 0.25rem;
+  min-width: 350px;
+  height: 0px;
+  overflow: hidden;
+
+  flex-direction: column;
+
+  padding: 0rem;
+
+  position: absolute;
+  top: 40px;
+}
+
+.our-services-dropdown.active {
+  height: auto;
+  overflow: hidden;
+}
+
+.our-services-dropdown span {
+  font-family: var(--title);
+  cursor: pointer;
+  padding: 1rem 2rem;
+  display: block;
+}
+
+.our-services-dropdown span:hover {
+  background-color: var(--gray100);
+}
+
 @media screen and (max-width: 1280px) {
   .header-content nav {
     position: absolute;
