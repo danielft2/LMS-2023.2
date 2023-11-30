@@ -108,8 +108,12 @@
 .top-place {
   display: flex;
   align-items: center;
-  justify-content: center;
-  
+  justify-content:start;
+  margin-bottom: 0px;
+}
+.place-infos{
+  margin-left: 30px;
+  margin-bottom: 20px;
 }
 .places h1{
   display: flex;
@@ -124,10 +128,11 @@
   justify-content: space-between;
 
   min-width: 360px;
-  height: 400px;
+  height: 250px;
   background-color: white;
   border-radius: 0.6rem;
   padding: 2rem;
+  margin-bottom: 100px;
 
   transition: all 0.2s ease-in;
 
